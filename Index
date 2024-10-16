@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTech Solutions - Hospital Network Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f9ff;
+            color: #333;
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+        h1 {
+            color: #00aaff;
+        }
+        h2 {
+            color: #005b96;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #0073e6;
+            font-size: 20px;
+        }
+        a:hover {
+            color: #005b96;
+        }
+        .content-section {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            background-color: #e6f7ff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 60%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-section">
+        <h1><b><u>MEDTECH SOLUTIONS</u></b></h1>
+        <div class="image-container">
+            <img src="pic1.jpeg" alt="Hospital Image">
+        </div>
+
+        <h2><b><u>Hospital Network Infrastructure Overview</u></b></h2>
+        <p><i>Our hospital's network infrastructure is designed to ensure seamless, reliable, 
+        and secure access to vital hospital administration software across multiple buildings. 
+        The network supports three adjacent wards, each with five storeys, and a large administration 
+        complex with five floors housing 150 practitioners. Critical network features ensure that 
+        staff members can efficiently access the central server located in the administration 
+        block from any location within the hospital, including billing areas and various wards.</i></p>
+
+        <div class="image-container">
+            <img src="pic2.jpeg" alt="Network Infrastructure">
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Explore More</h2>
+        <h1><a href="IT_Department_Staff_Structure.html">IT Department Staff Structure</a></h1>
+        <h1><a href="IT_Security_Policy_Guidelines.html">Security Policy Guidelines</a></h1>
+        <h1><a href="Acceptable_Use_Policy.html">Acceptable Use Policy</a></h1>
+        <h1><a href="Acquisition_Procedures_Approvals.html">Acquisition Procedures/Approvals</a></h1>
+        <h1><a href="Service_Desk_Help_Desk_Procedures.html">Service Desk/Help Desk Procedures</a></h1>
+        <h1><a href="Disaster_Recovery.html">Disaster Recovery</a></h1>
+    </div>
+</body>
+</html>
